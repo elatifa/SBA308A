@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cute Animals Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Cute Animal Gallery</h1>
+  <input type="text" id="search-input" placeholder="Search by breed">
+  <button id="search-button">Search</button>
+  <select id="category-select">
+    <option value="">All Categories</option>
+    <option value="1">Category 1</option>
+    <option value="2">Category 2</option>
+    <option value="3">Category 3</option>
+    <option value="4">Category 4</option>
+    <option value="5">Category 5</option>
+  </select>
+  <div id="gallery"></div>
+  <div id="pagination">
+    <button id="prev-button">Previous</button>
+    <span id="page-number">Page 1</span>
+    <span id="page-number">Page 2</span>
+    <span id="page-number">Page 3</span>
+    <span id="page-number">Page 4</span>
+    <span id="page-number">Page 5</span>
+    <span id="page-number">...</span>
+    <span id="page-number">Page 100</span>
+    <button id="next-button">Next</button>
+  </div>
+  <script type="module" src="main.js"></script>
+  <script type="module" src="gallery.js"></script>
+</body>
+</html>
